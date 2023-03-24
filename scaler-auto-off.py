@@ -21,11 +21,11 @@ from oauth2client.client import GoogleCredentials
 credentials = GoogleCredentials.get_application_default()
 service = discovery.build('compute', 'v1', credentials=credentials)
 # Project ID for this request.
-project = 'seminar-and-workshop' 
+project = 'example' 
 # Name of the zone for this request.
-zone = 'asia-east1-b'
+zone = 'example'
 # The name of the managed instance group.
-instance_group_manager = 'lynn-www3-mig'  
+instance_group_manager = 'example-mig'  
 # The number of running instances that the managed instance group should maintain at any given time.
 # The group automatically adds or removes instances to maintain the number of instances specified by
 # this parameter.
