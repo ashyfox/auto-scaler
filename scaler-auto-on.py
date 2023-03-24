@@ -29,7 +29,7 @@ print("## 222222222 ")
 # Project ID for this request.
 project = 'example' 
 # Name of the zone for this request.
-zone = 'example
+zone = 'example'
 # The name of the managed instance group.
 instance_group_manager = 'example-mig'  
 print("## 33333333 ")
