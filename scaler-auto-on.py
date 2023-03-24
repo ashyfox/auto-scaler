@@ -27,11 +27,11 @@ credentials = GoogleCredentials.get_application_default()
 service = discovery.build('compute', 'v1', credentials=credentials)
 print("## 222222222 ")
 # Project ID for this request.
-project = 'seminar-and-workshop' 
+project = 'example' 
 # Name of the zone for this request.
-zone = 'asia-east1-b'
+zone = 'example
 # The name of the managed instance group.
-instance_group_manager = 'lynn-www3-mig'  
+instance_group_manager = 'example-mig'  
 print("## 33333333 ")
 
 def hello_pubsub(event, context):
